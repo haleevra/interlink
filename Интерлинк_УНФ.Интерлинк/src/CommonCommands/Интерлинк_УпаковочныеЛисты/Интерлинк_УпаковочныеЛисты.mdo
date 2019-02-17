@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcb53a47-b955-4b05-97dc-b64d669d0422">
+  <name>Интерлинк_УпаковочныеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковочные листы</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelImportant</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

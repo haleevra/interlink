@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2ccfd11e-4f4c-4942-a97a-b4df9afaf9b3">
+  <producedTypes>
+    <objectType typeId="0405e70f-dc62-4c78-808a-acc6cc966cbc" valueTypeId="06fc3e9a-74bb-4f39-808c-0ab0d064091d"/>
+    <refType typeId="1b2bced7-5e79-43e8-8c91-2f6885f2b044" valueTypeId="a280ca80-db0a-487c-9ec3-a0505e22c06c"/>
+    <selectionType typeId="0ded96d2-a627-457a-8a11-8e04c5ed6bef" valueTypeId="17cdb998-b778-4700-b78f-4c0655021db9"/>
+    <listType typeId="a14080bf-9e25-42b3-a6a5-5337c18b68a1" valueTypeId="c2cc0e2f-8445-4899-81f8-bd1adfeaff95"/>
+    <managerType typeId="0aadd85f-8be4-40bf-8902-5147221f7ac2" valueTypeId="5b71f81d-1946-4f29-a0b9-f003dc3b21fa"/>
+  </producedTypes>
+  <name>БанковскиеСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

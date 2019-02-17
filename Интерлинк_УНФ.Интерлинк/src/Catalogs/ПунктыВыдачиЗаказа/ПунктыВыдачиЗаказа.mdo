@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b825d0a-8712-4de3-9eb3-c3f9a932a93e">
+  <producedTypes>
+    <objectType typeId="74c4cc41-edef-4ff3-8764-10b6a8616ba4" valueTypeId="a9fca25d-9da0-4ee9-bbdd-2daaeba50d4a"/>
+    <refType typeId="22bfd7bd-2773-48b3-b140-666dbe153044" valueTypeId="d6062c4c-9d6b-4e05-bb62-d986897a28f5"/>
+    <selectionType typeId="97251067-b5e9-459f-9e92-8850149d07e6" valueTypeId="f4bbf3f7-2b04-473f-b5f5-723d5bf6b93d"/>
+    <listType typeId="c68d7b1c-f1ad-4230-a72f-092e8f329e30" valueTypeId="05c69a4b-f5d0-44a2-9764-895fff1d3747"/>
+    <managerType typeId="0fe2c802-463b-4bd0-b142-7eb90e8d2b3a" valueTypeId="825a4efc-e5b6-49d5-b60f-611482ed66de"/>
+  </producedTypes>
+  <name>ПунктыВыдачиЗаказа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

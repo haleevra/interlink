@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2f6196b4-9e93-4319-a1de-194b556da0ae">
+  <producedTypes>
+    <objectType typeId="a3b9a5a0-03a4-4e13-b2f2-5f526052d16a" valueTypeId="6a4e117e-da87-45a5-ba8b-fa6364f33dd9"/>
+    <refType typeId="bf55fb4f-870f-4969-977f-8901d04ed3cd" valueTypeId="1f9ff8d8-cb47-4ac3-a713-0088feab5c36"/>
+    <selectionType typeId="eff9bd07-4dd9-4f16-8a43-701f1e99d966" valueTypeId="8e9cb023-06df-4d24-a679-06b6c1f65d55"/>
+    <listType typeId="884a912f-9ae2-40a2-87ee-2920e6c3c349" valueTypeId="e604724f-cfdf-4523-b934-7102b33d185b"/>
+    <managerType typeId="627457aa-9579-420b-8156-bc9661536487" valueTypeId="eb9b8b0a-9a46-4dd6-94c3-58abb202b9cc"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="96a41cae-e0a9-4daf-b11d-1f281b7adb6c">
+    <name>Объем</name>
+    <comment></comment>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DefinedType.Объем</types>
+    </type>
+    <mask></mask>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

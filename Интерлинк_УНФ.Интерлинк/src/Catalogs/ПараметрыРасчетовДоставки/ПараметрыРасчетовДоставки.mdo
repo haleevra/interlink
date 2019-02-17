@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f7690de7-7d40-449a-9adb-8e365f339dba">
+  <producedTypes>
+    <objectType typeId="2bf0e4ef-7b28-4078-bfec-d7177d7429ad" valueTypeId="eb842515-b702-4b15-8351-48061ee561ef"/>
+    <refType typeId="b0a39c62-7da1-45d2-a0a8-9275dbe0be43" valueTypeId="fc6a04e0-1fef-439f-9920-81014a353638"/>
+    <selectionType typeId="1be3cbf6-a92e-4749-b238-0af9532eaa81" valueTypeId="c6fae5b0-f243-47ae-8184-71613c47e138"/>
+    <listType typeId="48acf26e-bc99-4388-8f9a-00b5babaa576" valueTypeId="1d2a9608-8f70-4ea4-a064-7d5fcaef24d2"/>
+    <managerType typeId="14f01515-0940-4eeb-a7dc-b211654d208b" valueTypeId="4f13c1bb-b873-4e27-b5ef-ac00ea62317c"/>
+  </producedTypes>
+  <name>ПараметрыРасчетовДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cb2d84bd-d3d3-4ef5-96fc-1820572e90d7">
+  <producedTypes>
+    <objectType typeId="916c8f61-617a-49ab-b61e-0098da0e549e" valueTypeId="fb02b56f-e8aa-47bd-8a09-dce5826b01b9"/>
+    <refType typeId="7a1f994e-f1b2-46cc-a646-15b0d82333f6" valueTypeId="f0d4e74b-b419-4407-8b5e-2572e8798046"/>
+    <selectionType typeId="e34db35d-7f06-4e24-84ce-9a412ae714dd" valueTypeId="262771fb-0836-4908-b16b-7c228b42d3d2"/>
+    <listType typeId="cc3962e4-72eb-4b88-9717-bac8c106bc73" valueTypeId="9069c0b4-d34c-4d94-b699-500d4de8a9e6"/>
+    <managerType typeId="a42d16b0-94f5-4c95-bcd6-e142f2d4168d" valueTypeId="88d16d08-8f1d-474b-ad29-a604ea9202f2"/>
+  </producedTypes>
+  <name>СчетФактура</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

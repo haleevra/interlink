@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb6408b1-8d41-448b-9558-03e224090706">
+  <name>Интерлинк_УпаковочныеЛисты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковочные листы</value>
+  </synonym>
+  <comment></comment>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a6e3c785-459e-40ca-a1d6-e0eb50670ae8">
+  <producedTypes>
+    <refType typeId="f22a011e-864e-407e-9f05-a84c9ae9c187" valueTypeId="b30fbae3-fb6a-4c24-9c48-030aa560b3d0"/>
+    <listType typeId="b4323d2f-81dd-4067-b905-945ee3f58ad6" valueTypeId="4c9927ab-8571-4f91-b1f7-257cd85d649f"/>
+    <managerType typeId="588f4455-90c6-428a-8f9a-8e751c6b0ae9" valueTypeId="ed6f8abb-7c96-49ff-8e5c-3bd54028ab2f"/>
+  </producedTypes>
+  <name>ВариантыЗаполненияРасшифровкиПлатежа</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="95acfed3-7c3b-4e02-b20d-f617180ebdfc">
+    <name>Вручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5f10cfeb-ed7d-410b-aec7-9f610c7f424f">
+    <name>Просмотр</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

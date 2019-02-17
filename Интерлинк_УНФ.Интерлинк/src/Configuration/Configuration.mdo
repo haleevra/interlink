@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3090629b-4ae7-4874-aa64-330f7ad1be48">
+  <name>Интерлинк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерлинк</value>
+  </synonym>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ccc85b63-5220-4162-baa6-f75d80813af0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1f47e013-aca0-42a8-ad17-2b756c84f2f6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="2df1b3d7-db27-4dcd-82b3-741faf61b5f1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="50f31b15-2450-4334-9fed-2578b2cea6a6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a6a2cd25-8e75-48f3-968c-69bcd83886b9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7d8f9257-5da1-47f8-9df9-c7097929d9bb"/>
+  <namePrefix>Интерлинк_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Академия Проф-ИТ</vendor>
+  <version>1.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="fecd36a2-7975-4d37-81ce-ac4a8cf7f07d">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.КонтурEDI</subsystems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ЗагрузкаИзФайла</commonPictures>
+  <commonPictures>CommonPicture.ПолучитьВес</commonPictures>
+  <commonPictures>CommonPicture.ПодключаемоеОборудованиеЗагрузитьИзТСД</commonPictures>
+  <commonPictures>CommonPicture.СохранитьДокументКакШаблон</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.ШапкаТабличнаяЧасть</commonPictures>
+  <commonPictures>CommonPicture.ВставкаСтрок</commonPictures>
+  <commonPictures>CommonPicture.ЯндексДоставка</commonPictures>
+  <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.НовыйПоШтрихкоду</commonPictures>
+  <commonPictures>CommonPicture.СчитатьДисконтнуюКарту</commonPictures>
+  <commonPictures>CommonPicture.КопированиеСтрок</commonPictures>
+  <commonPictures>CommonPicture.GoogleMaps</commonPictures>
+  <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияТелефон</commonPictures>
+  <commonPictures>CommonPicture.КонтактнаяИнформацияЕмэйл</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
+  <functionalOptions>FunctionalOption.НесколькоВариантовКП</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьАвтоматическиеСкидкиНаценки</functionalOptions>
+  <functionalOptions>FunctionalOption.РезервированиеЗапасов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьДисконтныеКарты</functionalOptions>
+  <definedTypes>DefinedType.Объем</definedTypes>
+  <definedTypes>DefinedType.Вес</definedTypes>
+  <commonCommands>CommonCommand.СтруктураПодчиненности</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
+  <commonCommands>CommonCommand.ОтчетПоДвижениям</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.Интерлинк_УпаковочныеЛисты</commonCommands>
+  <constants>Constant.ФункциональнаяОпцияИспользоватьПодключаемоеОборудование</constants>
+  <constants>Constant.ИспользоватьНесколькоВариантовКП</constants>
+  <constants>Constant.ФункциональнаяОпцияИспользоватьАвтоматическиеСкидкиНаценки</constants>
+  <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
+  <constants>Constant.ФункциональнаяОпцияИспользоватьДисконтныеКарты</constants>
+  <commonForms>CommonForm.Интерлинк_УпаковочныеЛисты</commonForms>
+  <commonForms>CommonForm.Интерлинк_УпаковочныйЛист</commonForms>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Спецификации</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ПараметрыРасчетовДоставки</catalogs>
+  <catalogs>Catalog.НастройкиЯндексДоставки</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеВКассу</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ПоступлениеНаСчет</documents>
+  <documents>Document.РасходСоСчета</documents>
+  <documents>Document.РасходИзКассы</documents>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ОперацияПоПлатежнымКартам</documents>
+  <documents>Document.Событие</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.СчетФактура</documents>
+  <enums>Enum.ВариантыИзмененияДанныхВДокументахИзПомощника</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
+  <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
+  <enums>Enum.ВариантыЗавершенияЗаказа</enums>
+  <enums>Enum.СтатусыЯндексДоставки</enums>
+  <enums>Enum.ДействияГрупповогоИзмененияСтрок</enums>
+  <enums>Enum.ТипыСтрокСоставаСпецификации</enums>
+  <enums>Enum.ВариантыУчетаДоставки</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+  <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
+  <informationRegisters>InformationRegister.Интерлинк_УпаковочныеЛисты</informationRegisters>
+</mdclass:Configuration>

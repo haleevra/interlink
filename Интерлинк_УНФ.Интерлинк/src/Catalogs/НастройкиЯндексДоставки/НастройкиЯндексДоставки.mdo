@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eb90c73f-87aa-4fb1-89ba-902fc10ea4f8">
+  <producedTypes>
+    <objectType typeId="8d18209e-83ac-4d86-ad6e-3460acd35365" valueTypeId="88a082be-0f95-469c-b10c-0e4235017bfa"/>
+    <refType typeId="c0ac38fb-074b-488a-a172-4c1de04be94d" valueTypeId="2bfabddd-8111-4d52-ab1f-cefa9ae891a7"/>
+    <selectionType typeId="96edb75d-4be1-4182-bc16-bd1fd24c1072" valueTypeId="77b6a60b-09bf-4aeb-9b7b-a5682205814d"/>
+    <listType typeId="d01c1c35-4959-4471-bb36-0cce5383d355" valueTypeId="4d1466d5-3940-4936-8635-adb6811dd39c"/>
+    <managerType typeId="e5df7e69-62a2-4404-b41d-4c2c9d85dddb" valueTypeId="42e38dea-6c9a-47f2-8126-3b50e116bd25"/>
+  </producedTypes>
+  <name>НастройкиЯндексДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

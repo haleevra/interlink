@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6c7fc5fc-32be-4a87-bb58-a62a45275a9c">
+  <producedTypes>
+    <objectType typeId="872cc042-7477-4f93-81c1-9be88ad35e3e" valueTypeId="6c486722-fcf7-42da-b8fb-0a6483a36956"/>
+    <refType typeId="002d1c51-5aba-4a37-8cfd-7772693c7143" valueTypeId="860603fa-ca65-470b-b3bd-7e281c510198"/>
+    <selectionType typeId="f2644de3-900c-4f0e-8265-656739f8d6bd" valueTypeId="cd98e551-b45c-4210-8031-8191b5017305"/>
+    <listType typeId="2d481cdc-703d-465d-9135-ec1f7a42afb9" valueTypeId="fd0f6126-4cb8-463a-bb7b-a5d26c2aa264"/>
+    <managerType typeId="281b2082-ac8b-421d-a2b8-a992413e553f" valueTypeId="3fb38ad5-78ab-4f45-9e31-38f74e7aa573"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f7f1f9b1-e613-49c5-a9bb-29b84773d0e0">
+  <producedTypes>
+    <objectType typeId="dedb719c-8ccb-4a24-9403-53c79faf39cf" valueTypeId="f3a3eac7-02a1-44a2-9179-a808ccbab2a6"/>
+    <refType typeId="2fb0e855-ce6b-4c41-a000-95da22900011" valueTypeId="6d5b9ea6-3062-447e-b41c-56553d19b4b0"/>
+    <selectionType typeId="0204ccfa-2c2e-404f-be0b-922fda62c499" valueTypeId="acd93be7-e2b5-494b-9258-955509ef97f6"/>
+    <listType typeId="315bb55f-c428-4a82-bf90-6acb66668212" valueTypeId="acd743b5-d2fc-4fd6-85ff-d844fc330d41"/>
+    <managerType typeId="02f2dc0a-bcb3-44d2-8968-d885fa1e6a0c" valueTypeId="6c487c50-6a14-42e4-b764-50691a8432f5"/>
+  </producedTypes>
+  <name>ПоступлениеВКассу</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

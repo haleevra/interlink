@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="25292e13-f700-4330-a036-882a957547be">
+  <producedTypes>
+    <objectType typeId="eb85b895-1993-467e-b68c-179b7f6eae91" valueTypeId="fa0bb35b-3d22-453b-bd4d-947e7c0a230b"/>
+    <refType typeId="49aaa76f-ef3a-44b3-ac20-bcc56f8eb153" valueTypeId="afcd34ae-f97e-445c-9771-e6c672d4b67a"/>
+    <selectionType typeId="66615e1d-9837-4fdb-a2cf-33606a0e6445" valueTypeId="04391440-1666-4705-90d6-b92d531d7916"/>
+    <listType typeId="5ee43d88-7ce9-4ec4-8eff-a4f9866160a9" valueTypeId="346db13e-f89e-482a-93e8-a7bb7f3cfdc3"/>
+    <managerType typeId="de7fad3d-b890-4ba1-b634-bb147a3fe3cf" valueTypeId="95292a6f-eefc-495c-a6f3-b9f83cdc351f"/>
+  </producedTypes>
+  <name>Событие</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

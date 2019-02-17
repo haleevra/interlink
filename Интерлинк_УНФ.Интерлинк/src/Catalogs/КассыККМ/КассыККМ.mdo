@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39cde550-134c-44f2-baf8-5b2d0b64a81e">
+  <producedTypes>
+    <objectType typeId="71af616d-2f6d-42c7-a4dc-9aa3e7bb2a07" valueTypeId="e12b167c-705a-4182-9b11-6e09181eda4e"/>
+    <refType typeId="15d43042-a3a9-4c7d-b670-ce18219e26cd" valueTypeId="4882aab5-2e15-4f16-8b71-7cf73d575d09"/>
+    <selectionType typeId="08c6bded-83b1-4288-8469-2bf8fbb99b77" valueTypeId="92cc0d10-b054-4c94-8934-bd6bd1f488ef"/>
+    <listType typeId="74408cbb-5479-4348-a0f4-25b0a6cd71e3" valueTypeId="05d5e202-e0da-4d86-9d25-b1dfce7e0f11"/>
+    <managerType typeId="d2119205-5f2c-4616-bc27-3ee59d556f8e" valueTypeId="d2895d66-a55a-4167-a2f7-999af51277e3"/>
+  </producedTypes>
+  <name>КассыККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

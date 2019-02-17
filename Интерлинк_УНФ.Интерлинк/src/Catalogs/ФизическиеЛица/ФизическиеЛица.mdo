@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d2c4d5b6-5a38-49ea-9788-b01b0bb14f0f">
+  <producedTypes>
+    <objectType typeId="5ef2395e-c8a2-4775-a746-5e1678053453" valueTypeId="5f541f9e-8f47-4d5c-a4c0-c9e09778f910"/>
+    <refType typeId="11b2e14e-8222-4afc-a35c-246e15b31487" valueTypeId="5a115d04-ba0f-4a07-b9c6-656e51822931"/>
+    <selectionType typeId="dc010edd-630b-4e27-8b92-54dd085e6647" valueTypeId="f03ba4d6-79c9-4770-8e7c-e5d07078f447"/>
+    <listType typeId="8b810828-88f8-4a12-ad6e-9b85f714303a" valueTypeId="ded8dba0-7bd5-42bb-bf41-3d550d5a1738"/>
+    <managerType typeId="af248957-c394-4021-b027-557811b6a457" valueTypeId="bbb30fe6-6ab0-470e-b389-c43a0c92be22"/>
+  </producedTypes>
+  <name>ФизическиеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

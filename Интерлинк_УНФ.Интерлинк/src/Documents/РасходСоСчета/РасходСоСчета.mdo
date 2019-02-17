@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6257f993-3e2c-4578-bddb-1ad5e3a48920">
+  <producedTypes>
+    <objectType typeId="23fecb87-9be2-4b69-b1f2-0a747ee8c22f" valueTypeId="002655df-3c75-45dc-a22d-f019adfe634e"/>
+    <refType typeId="b0569f72-d943-4328-9e9a-f0d99f24359a" valueTypeId="c7d0b5b4-cd08-4d53-9491-32d6b28edd49"/>
+    <selectionType typeId="cd8e6b0e-ec78-4010-9663-1242bfa77367" valueTypeId="95001ddd-fa01-436d-8b08-d30057687294"/>
+    <listType typeId="0baab3f0-f271-4ba7-9ce5-8dd28dc80fe8" valueTypeId="cd15dd07-eb2e-43fa-8b13-8d4022f7597a"/>
+    <managerType typeId="954b5a14-2257-47a4-b288-479a319b76b0" valueTypeId="76159266-21d3-4307-bf6f-c6632c4a4179"/>
+  </producedTypes>
+  <name>РасходСоСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

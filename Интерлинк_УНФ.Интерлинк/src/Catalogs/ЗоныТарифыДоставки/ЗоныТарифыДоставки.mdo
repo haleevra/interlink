@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6906e9c6-bc55-454d-a203-6617235e0c0c">
+  <producedTypes>
+    <objectType typeId="edb75912-f330-40ab-9587-791025768de8" valueTypeId="603a8cd5-f21b-42d4-8972-c6c2d105e5b4"/>
+    <refType typeId="6f3c8dba-0ab0-42a3-a23c-11b034759f9a" valueTypeId="ccd898e9-fcb7-41ce-a6e5-a7621e8d3ba7"/>
+    <selectionType typeId="dc978829-0938-4964-b9ef-c12e2211fa8e" valueTypeId="a3a4a5ee-39fb-4180-a93e-70cd4de95fc0"/>
+    <listType typeId="96914094-6ffb-4079-993f-492d759a191a" valueTypeId="2b218f6e-f462-4d30-8517-d98e698579f3"/>
+    <managerType typeId="c3bb4d29-8f44-4138-9888-7eb60d4c390e" valueTypeId="5564b450-03b2-47f3-9474-829ad5df6ee5"/>
+  </producedTypes>
+  <name>ЗоныТарифыДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
