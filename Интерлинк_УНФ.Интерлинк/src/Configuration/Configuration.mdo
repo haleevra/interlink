@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Академия Проф-ИТ</vendor>
-  <version>1.0.1.1</version>
+  <version>1.0.1.2</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -66,6 +66,11 @@
   <commonPictures>CommonPicture.КонтактнаяИнформацияЕмэйл</commonPictures>
   <commonPictures>CommonPicture.ВниманиеВВидеТреугольника</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация16</commonPictures>
+  <commonPictures>CommonPicture.РазбитьСтроку</commonPictures>
+  <commonModules>CommonModule.Интерлинк_УпаковочныеЛисты</commonModules>
+  <commonModules>CommonModule.УправлениеПечатьюПереопределяемый</commonModules>
+  <commonModules>CommonModule.Интерлинк_ПодключаемыеКомандыПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьПодключаемоеОборудование</functionalOptions>
   <functionalOptions>FunctionalOption.НесколькоВариантовКП</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьАвтоматическиеСкидкиНаценки</functionalOptions>
@@ -85,8 +90,6 @@
   <constants>Constant.ФункциональнаяОпцияИспользоватьАвтоматическиеСкидкиНаценки</constants>
   <constants>Constant.ФункциональнаяОпцияРезервированиеЗапасов</constants>
   <constants>Constant.ФункциональнаяОпцияИспользоватьДисконтныеКарты</constants>
-  <commonForms>CommonForm.Интерлинк_УпаковочныеЛисты</commonForms>
-  <commonForms>CommonForm.Интерлинк_УпаковочныйЛист</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
@@ -112,6 +115,11 @@
   <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Подписи</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЛицензионныеКарточкиТранспортныхСредств</catalogs>
   <documents>Document.ПоступлениеВКассу</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ПоступлениеНаСчет</documents>
@@ -122,6 +130,7 @@
   <documents>Document.Событие</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.СчетФактура</documents>
+  <documents>Document.Интерлинк_УпаковочныйЛист</documents>
   <enums>Enum.ВариантыИзмененияДанныхВДокументахИзПомощника</enums>
   <enums>Enum.СпособыДоставки</enums>
   <enums>Enum.ТипыДенежныхСредств</enums>
@@ -134,5 +143,8 @@
   <enums>Enum.ВариантыУчетаДоставки</enums>
   <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
   <dataProcessors>DataProcessor.НастройкаПрограммы</dataProcessors>
-  <informationRegisters>InformationRegister.Интерлинк_УпаковочныеЛисты</informationRegisters>
+  <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
+  <dataProcessors>DataProcessor.ПечатьСчетФактура</dataProcessors>
+  <informationRegisters>InformationRegister.КонтурEDI_СоответствияТоваров</informationRegisters>
+  <informationRegisters>InformationRegister.КонтурEDI_ДополнительныеРеквизиты</informationRegisters>
 </mdclass:Configuration>
