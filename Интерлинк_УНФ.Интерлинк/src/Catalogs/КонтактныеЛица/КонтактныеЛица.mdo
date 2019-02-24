@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb22cea8-4d5d-4e18-ba2a-663faa4377a0">
+  <producedTypes>
+    <objectType typeId="2ee046ae-21d5-4e3f-97e0-90b75ac47980" valueTypeId="e2929d7f-6372-4869-9763-e0cb9bd4e0a9"/>
+    <refType typeId="68603bdf-0753-4294-b94b-c34e0d80ced3" valueTypeId="eaf99bf9-df59-4bdc-a101-66bad8ef6672"/>
+    <selectionType typeId="22bcc492-d283-4694-8da8-593e9f0ebcfa" valueTypeId="b56933e7-2110-4636-b28f-c6fc378452bf"/>
+    <listType typeId="d7217ffd-7cd1-4f05-96a1-a7fd91771e3a" valueTypeId="842fbd30-de3e-47ac-8a7f-174f3d068c3a"/>
+    <managerType typeId="732bf3f6-0b65-4a90-b06b-c339e9ba1cb6" valueTypeId="a8c01690-11c1-481e-b2be-3f90151a443c"/>
+  </producedTypes>
+  <name>КонтактныеЛица</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

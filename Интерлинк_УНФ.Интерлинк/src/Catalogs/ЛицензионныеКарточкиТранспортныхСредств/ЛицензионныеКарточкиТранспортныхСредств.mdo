@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3078d2dc-60b3-49ba-8519-d929e7bb9b05">
+  <producedTypes>
+    <objectType typeId="7237673a-3ff3-4380-9041-f22185a301e5" valueTypeId="45616d12-9995-4e8b-90d1-6fd80f39b09c"/>
+    <refType typeId="0b41128f-6741-4d39-a42c-372ff1327727" valueTypeId="eb6770bd-e26a-4206-9e03-c86dd050b632"/>
+    <selectionType typeId="2b53a774-35f6-4729-bf02-89eaed50b534" valueTypeId="ca799660-b338-4ad0-9ba0-916d948e79fe"/>
+    <listType typeId="82aa82de-100b-4088-961a-3bac058da55d" valueTypeId="b3417e91-b607-4bd7-9964-ed07aa874f82"/>
+    <managerType typeId="563d7588-b6f7-4337-8562-9d8ae31fbe47" valueTypeId="4966ea40-ca30-442c-9613-536c3859fbc0"/>
+  </producedTypes>
+  <name>ЛицензионныеКарточкиТранспортныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="59903593-24ad-4884-8eeb-9df5128df3ad">
+    <name>СерияЛицензионнойКарты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5809125b-1e9f-470c-8613-a06f0d12ff70">
+    <name>НомерЛицензионнойКарты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05185311-837a-4ffa-be72-cc49a5e9254e">
+    <name>РегистрационныйНомерВГосударственномОргане</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81e0d4f7-69ae-41c2-af56-21edd5221a83">
+    <name>ВидДеятельности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

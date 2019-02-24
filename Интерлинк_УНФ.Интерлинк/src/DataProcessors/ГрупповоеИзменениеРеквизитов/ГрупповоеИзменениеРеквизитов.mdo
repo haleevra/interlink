@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0ef1ef3a-1009-4adf-99b8-5909484ad801">
+  <producedTypes>
+    <objectType typeId="5312be27-0f93-4596-9b4c-ee3ed2c998de" valueTypeId="1998e72c-ab70-4697-bf67-14a22340bcc7"/>
+    <managerType typeId="390cbdf5-8b50-4218-9124-2274c6655b8d" valueTypeId="796d7958-5c64-4109-a891-b0c67435fc19"/>
+  </producedTypes>
+  <name>ГрупповоеИзменениеРеквизитов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

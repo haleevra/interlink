@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b611a86-cde6-434e-be00-9c5100e16e19">
+  <name>Интерлинк_ПодключаемыеКомандыПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерлинк подключаемые команды переопределяемый</value>
+  </synonym>
+  <comment></comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

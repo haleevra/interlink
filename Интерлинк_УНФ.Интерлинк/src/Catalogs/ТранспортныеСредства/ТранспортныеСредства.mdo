@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="597ad5bb-bab9-4635-8e24-830647bfa697">
+  <producedTypes>
+    <objectType typeId="8d77bc4a-2d08-48fe-a3c6-38d492a92c1a" valueTypeId="c2dc2146-7f81-4ff0-8aad-9dfaa06d9e95"/>
+    <refType typeId="9f9fafb4-4fc5-4615-ac92-6387b8c400ac" valueTypeId="770b0d5a-aa5c-49e3-ae78-daad6aae02fa"/>
+    <selectionType typeId="e5d959d2-a28d-4caa-9b01-c20f35c697c2" valueTypeId="3d5d227c-4758-4830-b286-ca5ab6609946"/>
+    <listType typeId="cf18d925-304d-4339-b881-35489a68ce71" valueTypeId="6c53f574-29a6-4622-aa20-09f72ce3d770"/>
+    <managerType typeId="c542b45d-4d04-4006-8800-d6c97cef89b0" valueTypeId="546bd70b-eb81-405c-8f77-71702be8176f"/>
+  </producedTypes>
+  <name>ТранспортныеСредства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7155918c-676a-4f4f-bfa4-45890e894285">
+    <name>Марка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07c8aa3e-c4b8-4f7e-8353-b1ea773ad3aa">
+    <name>ДействующаяЛицензионнаяКарточка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ЛицензионныеКарточкиТранспортныхСредств</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

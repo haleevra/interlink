@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="202644a0-c45f-451b-a21e-e050567543e5">
+  <producedTypes>
+    <selectionType typeId="52343097-109b-4ba0-b450-070fa572833e" valueTypeId="10181e0a-0ad2-409b-a4ec-77d7581b6bc9"/>
+    <listType typeId="cd0375b3-ec47-4719-b61c-6de3d81bb251" valueTypeId="11bde02e-7016-4e30-b47a-b89873fcc448"/>
+    <managerType typeId="370cf68a-6caa-4a9a-80dc-2c02de4732ba" valueTypeId="93932664-1ed1-40d7-98a1-e43dd2a05973"/>
+    <recordSetType typeId="64280f8a-3af3-44d4-9dde-96e74026c763" valueTypeId="de9dc2e4-4d5a-4f18-bea3-3253649b47e8"/>
+    <recordKeyType typeId="10dc3627-65af-438d-a470-8c5ea32657a4" valueTypeId="86c78038-a972-4bc3-bb3b-8596f45f4852"/>
+    <recordType typeId="c80b7df1-a950-40a1-ac49-772cce8045a4" valueTypeId="3453ac86-8470-4aea-9b10-38f8e7371063"/>
+    <recordManagerType typeId="97602748-ade6-49ec-bbc6-e23a2803c90e" valueTypeId="adb6f8eb-ef15-4221-9a32-96fe82f250e8"/>
+  </producedTypes>
+  <name>КонтурEDI_СоответствияТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f45f9fb2-92dd-4dab-baf3-d6f3e7e25608">
+    <name>GTIN</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>14</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="e854652f-eb18-45ab-97ed-f972d92db3a6">
+    <name>КодТовараПартнера</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="96ab5e1b-5798-4311-bc8f-d345f69d0678">
+    <name>НаименованиеПартнера</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="c0d8df5a-5e91-4d8d-82f3-2f33eae8ff90">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0c5bf854-7546-49b0-bcaa-74e4bb1bafd1">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
